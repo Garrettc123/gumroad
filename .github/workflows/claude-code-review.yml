@@ -48,7 +48,7 @@ jobs:
 
       - name: Checkout repository
         if: steps.pr.outputs.number != ''
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: ${{ github.event.workflow_run.head_sha }}
           persist-credentials: false
