@@ -58,6 +58,9 @@ tmp
 web_base_sha
 spoom_data/*
 spoom_report.html
+
+# Release packaging output — produced by scripts/package-release.sh
+/dist/
 bin/dist
 
 # Local SSL certificates
